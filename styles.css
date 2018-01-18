@@ -1,0 +1,66 @@
+@font-face{
+    src: url("ROADWAY_.ttf");
+    font-family: Roadway;
+}
+
+
+.jumbotron h1, .jumbotron h3, .jumbotron h2, .jumbotron h4{
+    font-family: Roadway;
+}
+
+.jumbotron h1, .jumbotron h3{
+    color: white;
+}
+
+.jumbotron h3{
+    font-variant: small-caps;
+}
+
+.jumbotron h3 a{
+    text-decoration: none;
+}
+
+.jumbotron{
+    background-color: #6441A4;
+}
+
+.channelResult{
+    background-color: white;
+    margin-bottom: .5%;
+    transition: background-color .1s linear;
+}
+
+.channelResult h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.channelResult a{
+    text-decoration: none;
+    transition: .1s color linear;
+}
+.channelResult.live a{
+    color: #A28DC8;
+}
+.channelResult.notlive a{
+    color: #a6a6a6;
+}
+
+.channelResult.live a:hover{
+    color: #6441A4;
+}
+.channelResult.notlive a:hover{
+    color: #747474;
+}
+.channelResult.live:hover{
+    background-color: #FF3232;
+}
+.channelResult.notlive:hover{
+    background-color: #C1B3DA;
+}
+
+
+.v-center {
+   display: flex;
+   align-items: center;
+}
